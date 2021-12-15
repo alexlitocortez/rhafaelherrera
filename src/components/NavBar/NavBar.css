@@ -1,0 +1,39 @@
+
+.NavBar {
+    text-align: right;
+    position: fixed;
+    width: 100%;
+    z-index: 998;
+    cursor: pointer;
+    height: 3.5em;
+    padding-bottom: 1rem;
+}
+
+.NavBar-list {
+    list-style-type: none;
+    margin-bottom: 0;
+    padding-left: 0;
+    font-weight: 600;
+    padding: 0 1.25em;
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-end;
+    margin-top: 2rem;
+}
+
+.NavBar li {
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+@media screen and (max-width: 991px) {
+    .NavBar {
+        display: none;
+    }
+}
+
+
+
+
+
+
