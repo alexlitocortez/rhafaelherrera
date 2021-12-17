@@ -5,8 +5,13 @@
     width: 100%;
     z-index: 998;
     cursor: pointer;
-    height: 3.5em;
+    height: 5em;
     padding-bottom: 1rem;
+}
+
+.active {
+    background-color: white;
+    color: black;
 }
 
 .NavBar-list {
@@ -30,10 +35,13 @@
     .NavBar {
         display: none;
     }
+
+    .active {
+        background-color: white;
+        color: black;
+    }
+
 }
-
-
-
 
 
 

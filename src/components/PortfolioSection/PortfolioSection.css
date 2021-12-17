@@ -1,7 +1,41 @@
 
 .portfolio-section {
-    background-color: #000;
+    background-color: #90afc5;
     width: 100%;
-    height: 6rem;
+    height: 30rem;
+    height: fit-content;
+    padding: 2rem;
+}
+
+.portfolio-cards {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1rem;
+}
+
+.card {
+    width: 10rem;
+    height: 10rem;
+    padding: 1rem;
     position: relative;
+    box-shadow: inset 0 0 2000px rgba(255, 255, 255, .5);
+    filter: blur(1px);
+}
+
+
+
+@media screen and (max-width: 768px) {
+    .portfolio-cards {
+        display: flex;
+        flex-direction: column;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .portfolio-cards {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
 }

@@ -4,9 +4,19 @@ import './PortfolioSection.css';
 function PortfolioSection() {
     return (
         <div>
-            <div className='portfolio-section'>
-                
-            </div>
+            <section className='portfolio-section'>
+                <div className='portfolio-cards'>
+                    <div className='card'>
+
+                    </div>
+                    <div className='card'>
+
+                    </div>
+                    <div className='card'>
+
+                    </div>
+                </div>
+            </section>
         </div>
     )
 }
