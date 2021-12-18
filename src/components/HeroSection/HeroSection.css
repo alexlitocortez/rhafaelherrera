@@ -43,6 +43,44 @@
     vertical-align: middle;
 }
 
+.civil-engineer-container {
+    width: 100vw;
+}
+
+.engineer-image {
+    width: 100%;
+    max-height: 100%;
+    border-radius: 90%;
+}
+
+@media screen and (max-width: 1440px) {
+    .engineer-image {
+        height: 80vh;
+        width: 50vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .engineer-image {
+        height: 100vh;
+        width: 80vw;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .engineer-image {
+        height: 100vh;
+        width: 100vw;
+        border-radius: 0%;
+    }
+}
+
+@media screen and (max-width: 350px) {
+    .engineer-image {
+        height: 70vh;
+    }
+}
+
 @media screen and (min-width: 769px) {
     .hero-circles {
         display: flex;

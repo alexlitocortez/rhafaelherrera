@@ -3,21 +3,35 @@ import './NavBar.css';
 
 function NavBar() {
 
-    const [navbar, setNavBar] = useState(false);
+    // const navBar = document.getElementById('navBar');
 
-    const changeBackground = () => {
-        if (window.scrollY >= 80) {
-            setNavBar(true);
-        } else {
-            setNavBar(false);
-        }
-    }
+    // var st = this.scroll()
 
-    window.addEventListener('scroll', changeBackground)
+    // var limit = 40
+
+    // function navScroll() {
+    //     if(st <= limit) {
+    //     navBar.style.backgroundColor('opacity', 1 - window.scroll/500)
+    //     } else {
+    //         navBar.style.backgroundColor = 0;
+    //     }
+    // }
+
+    // window.addEventListener('scroll', navScroll);
+
+
+    // const changeBackground = () => {
+    //     if (window.scrollY >= 40) {
+    //         setNavBar(true);
+    //     } else {
+    //         setNavBar(false);
+    //     }
+    // }
+
 
     return (
         <div>
-            <nav className={` NavBar ${navbar ? 'navbar active': 'navbar'}`}>
+            <nav className='NavBar' id='navBar'>
                 <ul className='NavBar-list'>
                     <li>About</li>
                     <li>Portfolio</li>
@@ -28,6 +42,8 @@ function NavBar() {
         </div>
     )
 }
+
+
 
 export default NavBar
 

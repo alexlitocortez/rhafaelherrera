@@ -2,7 +2,6 @@ import React, { useState } from 'react';
 import styled from 'styled-components';
 import { FaBars } from 'react-icons/fa';
 import './Hamburger.css';
-import NavBar from '../NavBar/NavBar';
 
 const MenuBars = styled(FaBars)`
     display: none;
@@ -26,15 +25,15 @@ const MenuBars = styled(FaBars)`
     }
 `;
 
-function Hamburger() {
+function Hamburger({ open, setOpen }) {
 
-    const [hamburgerMenu, setHamburgerMenu] = useState(false);
+    const [navbar, setNavBar] = useState(false);
 
     const changeBackground = () => {
         if (window.scrollY >= 80) {
-            setHamburgerMenu(true);
+            setNavBar(true);
         } else {
-            setHamburgerMenu(false);
+            setNavBar(false);
         }
     }
 
@@ -42,12 +41,11 @@ function Hamburger() {
 
     return (
         <div>
-            <div className={ hamburgerMenu ? `hamburgerMenu hamburgerMoney`: `hamburgerMenu` }>
-                <MenuBars />
+            <div>
+                <MenuBars open={open} onClick={() => setOpen(!open)} />
             </div>
         </div>
     )
 }
 
 export default Hamburger
-

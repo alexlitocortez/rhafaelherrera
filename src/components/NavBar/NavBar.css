@@ -33,6 +33,10 @@
 
 @media screen and (max-width: 991px) {
     .NavBar {
+        background-color: #f2f9fd;
+    }
+
+    .NavBar-list {
         display: none;
     }
 
