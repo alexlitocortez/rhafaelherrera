@@ -17,7 +17,7 @@ const DropdownContainer = styled.nav`
         padding: 2rem 1rem;
         border-radius: 0.5rem;
         background-color: #3e3e3e;
-        top: 3rem;
+        top: 5rem;
         transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
         transition: ease-in-out;
 

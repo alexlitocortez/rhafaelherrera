@@ -8,7 +8,10 @@ function HeroSection() {
         <div>
             <div className='hero-section'>
                 <p className='hero-paragraph'>
-                    I'm a civil engineer changing the world one pipe at a time
+                    I'm a civil engineer in training passionate about the art of
+                    construction and am working with infrastructure that enables
+                    communities to operate from roads, utilities, and overall
+                    accessibility in everyday life.
                 </p>
                 <div className='hero-circles'>
                     <span className='dot'>

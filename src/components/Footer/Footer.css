@@ -1,0 +1,38 @@
+
+.footer-container {
+    display: flex;
+    justify-content: flex-start;
+    background-color: #336b87;
+    color: #fff;
+    padding: 1rem;
+    text-align: center;
+}
+
+.footer-text {
+    padding: 0.2rem;
+}
+
+#footer-text-one {
+    color: #ffc23f;
+}
+
+#footer-text-two {
+    color: #ffc23f;
+}
+
+#footer-text-three {
+    color: #d3d3d3;
+}
+
+
+@media screen and (min-width: 998px) and (max-width: 2800px) {
+    .footer-container {
+        justify-content: center;
+    }
+}
+
+
+
+
+
+

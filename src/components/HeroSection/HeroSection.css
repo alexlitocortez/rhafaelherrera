@@ -1,9 +1,11 @@
 
 .hero-paragraph {
     color: #7a7c74;
-    font-size: 2rem;
+    font-size: 1.5rem;
     position: relative;
     top: 7rem;
+    margin-left: 1rem;
+    margin-right: 1rem;
 }
 
 .dot {
@@ -38,9 +40,8 @@
     margin-bottom: 1rem;
     display: inline-block;
     text-align: center;
-    white-space: normal;
-    word-break: break-word;
-    vertical-align: middle;
+    display: block;
+    border-color: #ffc23f;
 }
 
 .civil-engineer-container {
@@ -57,6 +58,12 @@
     .engineer-image {
         height: 80vh;
         width: 50vw;
+    }
+}
+
+@media screen and (min-width: 1105px) {
+    .engineer-image {
+        width: 40vw;
     }
 }
 

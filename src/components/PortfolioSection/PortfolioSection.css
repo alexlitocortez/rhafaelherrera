@@ -16,15 +16,17 @@
 
 .card {
     width: 90vw;
-    height: 10rem;
+    height: 15rem;
     padding: 1rem;
     position: relative;
     box-shadow: 0 7px 35px 0 rgb(0 0 0 / 5%);
     background-color: #fff;
 }
 
-@media screen and (min-width: 769px) and (max-width: 2800px) {
-
+@media screen and (min-width: 1200px) {
+    .card {
+        height: 20rem;
+    }
 }
 
 @media screen and (max-width: 768px) {
@@ -42,4 +44,8 @@
     }
 }
 
-
+@media screen and (min-width: 426px) {
+    .card {
+        width: 70vw;
+    }
+}

@@ -3,35 +3,25 @@ import './NavBar.css';
 
 function NavBar() {
 
-    // const navBar = document.getElementById('navBar');
+    const [navbar, setNavbar] = useState(false)
+    const [shadow, setShadow] = useState(false)
 
-    // var st = this.scroll()
+    const changeBackground = () => {
+        if(window.scrollY >= 40) {
+            setNavbar(true);
+            setShadow(true);
+        } else {
+            setNavbar(false);
+            setShadow(false);
+        }
+    }
 
-    // var limit = 40
-
-    // function navScroll() {
-    //     if(st <= limit) {
-    //     navBar.style.backgroundColor('opacity', 1 - window.scroll/500)
-    //     } else {
-    //         navBar.style.backgroundColor = 0;
-    //     }
-    // }
-
-    // window.addEventListener('scroll', navScroll);
-
-
-    // const changeBackground = () => {
-    //     if (window.scrollY >= 40) {
-    //         setNavBar(true);
-    //     } else {
-    //         setNavBar(false);
-    //     }
-    // }
+    window.addEventListener('scroll', changeBackground);
 
 
     return (
         <div>
-            <nav className='NavBar' id='navBar'>
+            <nav className={`NavBar ${navbar ? 'navbar active' : 'navbar'} ${shadow ? 'shadow activeShadow' : 'shadow'}`}>
                 <ul className='NavBar-list'>
                     <li>About</li>
                     <li>Portfolio</li>

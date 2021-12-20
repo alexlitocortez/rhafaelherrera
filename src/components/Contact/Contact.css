@@ -1,7 +1,9 @@
 
+.contact-container-background {
+    background-color: #336b87;
+}
 
 .contact-container {
-    background-color: #336b87;
     padding-top: 2rem;
     padding-bottom: 2rem;
     width: 100%;
@@ -9,6 +11,13 @@
 
 .contact-header {
     color: white;
+}
+
+.contact-divider {
+    height: 4px;
+    width: 7rem;
+    background-color: #999;
+    margin: auto;
 }
 
 .app-form-control {
@@ -23,6 +32,10 @@
     outline: none;
 }
 
+.input-section {
+    width: 100%;
+}
+
 input::placeholder {
     color: white;
 }
@@ -32,6 +45,25 @@ textarea::placeholder {
     color: white;
 }
 
+.button-container-half {
+    display: flex;
+    justify-content: space-around;
+}
+
+.contact-button {
+    margin-bottom: 2rem;
+    border: none;
+    outline: none;
+    color: #fff;
+    background-color: #336b87;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.contact-button:hover {
+    color: #999;
+}
+
 @media  screen and (min-width: 998px) and (max-width: 2800px) {
     .contact-container {
         display: flex;
@@ -39,7 +71,7 @@ textarea::placeholder {
     }
 
     .contact-header {
-        padding: 3rem;
+        padding: 2rem;
     }
 
     .input-section {
@@ -51,5 +83,29 @@ textarea::placeholder {
         float: right;
         padding-right: 1rem;
         margin-bottom: 3rem;
+    }
+
+    .button-container-half {
+        position: relative;
+        bottom: 3rem;
+    }
+
+    .button-container {
+        display: flex;
+        flex-direction: row-reverse;
+        
+    }
+}
+
+@media screen and (max-width: 997px) {
+    .contact-divider {
+        width: 90vw;
+        margin-top: 1rem;
+        margin-bottom: 1rem;
+    }
+
+    .button-container-half {
+        display: flex;
+        flex-direction: column;
     }
 }
