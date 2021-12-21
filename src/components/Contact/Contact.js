@@ -10,7 +10,6 @@ function Contact() {
                         <h1 className='contact-header'>
                             Contact Me
                         </h1>
-                        <div className='contact-divider'></div>
                     </div>
                     <div className='input-section'>
                         <input className='app-form-control' type='text' name='name' id='name' placeholder='Name' />

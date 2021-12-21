@@ -5,6 +5,7 @@ function PortfolioSection() {
     return (
         <div>
             <section className='portfolio-section'>
+                <h1 className='portfolio-header'>Portfolio</h1>
                 <div className='portfolio-cards'>
                     <div className='card'>
 

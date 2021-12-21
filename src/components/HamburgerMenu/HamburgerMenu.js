@@ -1,4 +1,4 @@
-import React from 'react';
+import React, {useState} from 'react';
 import './HamburgerMenu.css';
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
@@ -16,8 +16,8 @@ const DropdownContainer = styled.nav`
         position: fixed;
         padding: 2rem 1rem;
         border-radius: 0.5rem;
-        background-color: #3e3e3e;
-        top: 5rem;
+        background-color: #f2f9fd;
+        top: 4rem;
         transform: ${({ open }) => open ? 'translateX(0)' : 'translateX(-100%)'};
         transition: ease-in-out;
 
@@ -31,33 +31,32 @@ const CloseIcon = styled(FaTimes)`
     color: #000d1a;
     position: absolute;
     top: 0;
-    right: 0;
-    color: #fff;
+    right: 0.7rem;
+    color: #7a7c74;
     height: 2rem;
     width: 2rem;
     cursor: pointer;
 
     @media screen and (max-width: 768px) {
         position: absolute;
-        right: 0;
+        right: 0.7rem;
     }
 
     @media screen and (max-width: 375px) {
         position: absolute;
-        right: 0;
+        right: 0.7rem;
     }
 `;
 
-
 function HamburgerMenu({ open, setOpen }) {
+
     return (
         <div>
-            <DropdownContainer id='container' open={open}>
+            <DropdownContainer color={'white'} id='container' open={open}>
                 <CloseIcon open={open} onClick={() => setOpen(!open)} />
                 <ul className='nav-list'>
                     <li onClick={() => setOpen(!open)}>About</li>
                     <li onClick={() => setOpen(!open)}>Portfolio</li>
-                    <li onClick={() => setOpen(!open)}>Blog</li>
                     <li onClick={() => setOpen(!open)}>Contact</li>
                 </ul>
             </DropdownContainer>

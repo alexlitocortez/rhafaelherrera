@@ -13,13 +13,6 @@
     color: white;
 }
 
-.contact-divider {
-    height: 4px;
-    width: 7rem;
-    background-color: #999;
-    margin: auto;
-}
-
 .app-form-control {
     width: 90vw;
     padding: 10px 0;

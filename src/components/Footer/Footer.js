@@ -5,13 +5,13 @@ function Footer() {
     return (
         <div>
             <div className='footer-container'>
-                <div className='footer-text' id='footer-text-one'>
+                <div className='footer-text'>
                     ©,
                 </div>
-                <div className='footer-text' id='footer-text-two'>
+                <div className='footer-text'>
                     2022
                 </div>
-                <div className='footer-text' id='footer-text-three'>
+                <div className='footer-text'>
                     Rhafael Herrera
                 </div>
             </div>

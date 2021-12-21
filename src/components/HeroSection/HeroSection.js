@@ -1,12 +1,16 @@
 import React from 'react';
 import './HeroSection.css';
 import civilEngineer from '/Users/l/rhafaelherrera/src/components/images/plan-48-23 copy.jpg';
+import construction from '/Users/l/rhafaelherrera/src/components/images/construction-sim1.jpg';
 
 
 function HeroSection() {
     return (
         <div>
             <div className='hero-section'>
+                <div className='construction-image-container'>
+                    <img src={construction} className='construction-image' />
+                </div>
                 <p className='hero-paragraph'>
                     I'm a civil engineer in training passionate about the art of
                     construction and am working with infrastructure that enables

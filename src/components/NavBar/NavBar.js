@@ -25,7 +25,6 @@ function NavBar() {
                 <ul className='NavBar-list'>
                     <li>About</li>
                     <li>Portfolio</li>
-                    <li>Blog</li>
                     <li>Contact</li>
                 </ul>
             </nav>
