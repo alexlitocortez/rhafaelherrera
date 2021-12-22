@@ -18,3 +18,31 @@
     color: #fff;
 }
 
+.nav-list li {
+    padding-right: 1rem;
+}
+
+.container {
+    display: none;
+}
+
+.goner {
+    display: none;
+}
+
+@media screen and (max-width: 990px) {
+    .container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        z-index: 999;
+        width: 100vw;
+        height: 70vh;
+        position: fixed;
+        padding: 2rem 1rem;
+        border-radius: 00.5rem;
+        background-color: #f2f9fd;
+        top: 4rem;
+        transition: ease-in-out;
+    }
+}

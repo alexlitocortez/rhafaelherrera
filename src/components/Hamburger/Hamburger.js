@@ -27,18 +27,6 @@ const MenuBars = styled(FaBars)`
 
 function Hamburger({ open, setOpen }) {
 
-    const [navbar, setNavBar] = useState(false);
-
-    const changeBackground = () => {
-        if (window.scrollY >= 80) {
-            setNavBar(true);
-        } else {
-            setNavBar(false);
-        }
-    }
-
-    window.addEventListener('scroll', changeBackground)
-
     return (
         <div>
             <div>

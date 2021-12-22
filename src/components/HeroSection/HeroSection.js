@@ -2,6 +2,7 @@ import React from 'react';
 import './HeroSection.css';
 import civilEngineer from '/Users/l/rhafaelherrera/src/components/images/plan-48-23 copy.jpg';
 import construction from '/Users/l/rhafaelherrera/src/components/images/construction-sim1.jpg';
+import toolOne from '/Users/l/rhafaelherrera/src/components/images/#1tool.jpg';
 
 
 function HeroSection() {
@@ -18,11 +19,9 @@ function HeroSection() {
                     accessibility in everyday life.
                 </p>
                 <div className='hero-circles'>
-                    <span className='dot'>
-                        <p className='dot-text'>
-                        Teamwork
-                        </p>
-                    </span>
+                    <div className='dot'>
+                        <img src={toolOne} className='toolOne' alt='engineering-tool' />
+                    </div>
                     <span className='dot'>
                         <p className='dot-text'>
                         Empathy

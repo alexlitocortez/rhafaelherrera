@@ -3,6 +3,8 @@ import './HamburgerMenu.css';
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
 
+
+
 const DropdownContainer = styled.nav`
     display: none;
 
@@ -48,11 +50,12 @@ const CloseIcon = styled(FaTimes)`
     }
 `;
 
+    
 function HamburgerMenu({ open, setOpen }) {
-
+    
     return (
         <div>
-            <DropdownContainer color={'white'} id='container' open={open}>
+            <DropdownContainer id='container' open={open}>
                 <CloseIcon open={open} onClick={() => setOpen(!open)} />
                 <ul className='nav-list'>
                     <li onClick={() => setOpen(!open)}>About</li>

@@ -9,15 +9,10 @@
 }
 
 .dot {
-    height: 8rem;
-    width: 8rem;
+    height: 15rem;
+    width: 15rem;
     background-color: #fff;
     border-radius: 50%;
-    display: inline-block;
-    white-space: normal;
-    word-break: break-word;
-    vertical-align: middle;
-    display: flex;
 }
 
 .dot-text {
@@ -42,6 +37,11 @@
     text-align: center;
     display: block;
     border-color: #ffc23f;
+}
+
+.toolOne {
+    width: 100%;
+    max-height: 100%;
 }
 
 .construction-image-container {
