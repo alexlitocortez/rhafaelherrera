@@ -1,5 +1,6 @@
 import React, { useState } from 'react';
 import './NavBar.css';
+import logo from '/Users/l/rhafaelherrera/src/components/images/logo-icon.png';
 
 function NavBar() {
 
@@ -22,6 +23,7 @@ function NavBar() {
     return (
         <div>
             <nav className={`NavBar ${navbar ? 'navbar active' : 'navbar'} ${shadow ? 'shadow activeShadow' : 'shadow'}`}>
+                <img src={logo} className='logo-icon'/>
                 <ul className='NavBar-list'>
                     <li>About</li>
                     <li>Portfolio</li>

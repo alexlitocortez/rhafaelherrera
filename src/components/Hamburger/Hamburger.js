@@ -11,7 +11,7 @@ const MenuBars = styled(FaBars)`
         background-size: contain;
         height: 30px;
         width: 2rem;
-        color: black;
+        color: #365590;
         cursor: pointer;
         position: fixed;
         top: 0.6rem;

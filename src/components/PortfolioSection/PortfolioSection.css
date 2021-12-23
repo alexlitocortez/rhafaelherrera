@@ -7,9 +7,32 @@
     margin-bottom: 5rem;
 }
 
+.portfolio-header-container {
+    display: flex;
+}
+
+.portfolio-text-container {
+    display: flex;
+    flex-direction: column;
+}
+
 .portfolio-header {
     font-size: 2.5rem;
-    margin-bottom: 5rem;
+    margin-bottom: 2rem;
+}
+
+.portfolio-paragraph {
+    color: #7a7c74;
+    font-size: 1.5rem;
+}
+
+.construction-image-container {
+    width: fit-content;
+}
+
+.construction-image {
+    width: 100%;
+    max-height: 100%;
 }
 
 .portfolio-cards {
@@ -32,6 +55,10 @@
     .card {
         height: 35rem;
     }
+
+    .portfolio-header-container {
+        margin-bottom: 2rem;
+    }
 }
 
 @media screen and (min-width: 2001px) and (max-width: 2400px) {
@@ -40,9 +67,10 @@
         height: 30rem;
     }
 
+    .portfolio-header-container {
+        margin-bottom: 2rem;
+    }
 }
-
-
 
 @media screen and (min-width: 1200px) and (max-width: 2000px) {
     .card {
@@ -50,7 +78,50 @@
     }
 }
 
+@media screen and (max-width: 1999px) {
+    .portfolio-header-container {
+        margin-bottom: 2rem;
+    }
+}
+
+@media screen and (min-width: 1440px) {
+    .portfolio-paragraph {
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (min-width: 800px) and (max-width: 992px) {
+    .portfolio-header-container {
+        padding-bottom: 5rem;
+    }
+}
+
 @media screen and (max-width: 768px) {
+    .portfolio-header-container {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .portfolio-header {
+        text-align: left;
+        margin-top: 2rem;
+        margin-bottom: 2rem;
+    }
+
+    .construction-image-container {
+        margin-bottom: 5rem;
+    }
+
+    .portfolio-paragraph {
+        margin-bottom: 2rem;
+        text-align: left;
+    }
+
+    .portfolio-text-container {
+        display: flex;
+        flex-direction: column;
+    }
+
     .portfolio-cards {
         display: flex;
         flex-direction: column;
