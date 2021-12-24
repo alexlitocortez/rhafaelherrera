@@ -23,7 +23,10 @@ function NavBar() {
     return (
         <div>
             <nav className={`NavBar ${navbar ? 'navbar active' : 'navbar'} ${shadow ? 'shadow activeShadow' : 'shadow'}`}>
-                <img src={logo} className='logo-icon'/>
+                <div className='icon-container'>
+                    <img src={logo} className='logo-icon'/>
+                    <h1 className='navigation-name'>| Rhafael Herrera</h1>
+                </div>
                 <ul className='NavBar-list'>
                     <li>About</li>
                     <li>Portfolio</li>

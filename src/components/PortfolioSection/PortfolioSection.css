@@ -2,9 +2,8 @@
 .portfolio-section {
     width: 100%;
     height: fit-content;
-    padding: 2rem;
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    padding: 1rem;
+    margin-bottom: 4rem;
 }
 
 .portfolio-header-container {
@@ -46,7 +45,6 @@
     width: 90vw;
     height: 15rem;
     padding: 1rem;
-    position: relative;
     box-shadow: 0 7px 35px 0 rgb(0 0 0 / 5%);
     background-color: #fff;
 }
@@ -140,4 +138,9 @@
     .card {
         width: 70vw;
     }
+
+    .portfolio-section {
+        margin-top: 0rem;
+    }
 }
+

@@ -9,12 +9,6 @@ function HeroSection() {
                 <div className='civil-engineer-container'>
                     <img src={civilEngineer} className='engineer-image' alt='civil-engineer-character-illustration' />
                 </div>
-                {/* <div className='construction-image-container'>
-                    <img src={construction} className='construction-image' />
-                </div> */}
-                <h1 className='hero-header'>
-                    Rhafael Herrera
-                </h1>
             </div>
         </div>
     )

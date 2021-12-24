@@ -61,6 +61,34 @@
     height: 70vh;
 }
 
+.skill-list-section {
+    display: flex;
+    justify-content: center;
+    margin-top: 3rem;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.skill-list {
+    padding: 0;
+}
+
+.skill-list li {
+    list-style: none;
+    color: #ADD8E6;
+    font-family: 'Avenir Next', sans-serif;
+    font-weight: 700;
+    font-style: italic;
+    font-size: 1.5rem;
+    animation: color 3s infinite linear;
+    text-shadow: 0 0 1px #000a;
+    text-transform: uppercase;
+    transition: all 0.5s;
+    letter-spacing: 0.05rem;
+}
+
+
+
 @media screen and (max-width: 1440px) {
     .engineer-image {
         height: 80vh;

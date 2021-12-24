@@ -10,6 +10,12 @@
     transition: 0.6s ease-in-out;
 }
 
+.icon-container {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
 .logo-icon {
     width: 3rem;
     height: 2.5rem;
@@ -17,6 +23,12 @@
     position: relative;
     top: 0.5rem;
     left: 0.5rem;
+}
+
+.navigation-name {
+    color: #365590;
+    margin-top: 0.7rem;
+    padding-left: 0.5rem;
 }
 
 .active {
@@ -35,10 +47,13 @@
     font-weight: 600;
     padding: 0 1.25em;
     display: flex;
-    flex-direction: row;
+    flex-direction: flex-end;
     justify-content: flex-end;
-    margin-top: 2rem;
     color: #365590;
+    align-items: center;
+    float: right;
+    position: relative;
+    bottom: 1.3rem;
 }
 
 .NavBar li {
@@ -62,5 +77,15 @@
 
 }
 
+@media screen and (max-width: 425px) {
+    .navigation-name {
+        font-size: 1rem;
+        margin-top: 1.2rem;
+    }
+}
 
-
+@media screen and (max-width: 229px) {
+    .navigation-name {
+        font-size: 0.7rem;
+    }
+}
