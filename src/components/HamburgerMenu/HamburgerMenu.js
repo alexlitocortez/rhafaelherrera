@@ -52,6 +52,12 @@ const CloseIcon = styled(FaTimes)`
 
     
 function HamburgerMenu({ open, setOpen }) {
+
+    const [changeBackground, setChangeBackground] = useState(false);
+
+    const changeBackgroundColor = () => {
+        
+    }
     
     return (
         <div>

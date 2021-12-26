@@ -3,7 +3,6 @@ import useForm from '../../useForm/useForm';
 import './Contact.css';
 import validateInfo from '/Users/l/rhafaelherrera/src/components/validateInfo/validateInfo.js';
 
-
 function Contact() {
 
     const { handleChange, values, handleSubmit, errors } = useForm(validateInfo)
