@@ -3,15 +3,9 @@ import useForm from '../../useForm/useForm';
 import './Contact.css';
 import validateInfo from '/Users/l/rhafaelherrera/src/components/validateInfo/validateInfo.js';
 
-function Contact() {
+function Contact({submitForm}) {
 
-    const { handleChange, values, handleSubmit, errors } = useForm(validateInfo)
-
-    const [isSubmitted, setIsSubmitted] = useState(false);
-
-    function submitForm() {
-        setIsSubmitted(true);
-    }
+    const { handleChange, values, handleSubmit, errors } = useForm(submitForm, validateInfo)
 
     return (
         <div>

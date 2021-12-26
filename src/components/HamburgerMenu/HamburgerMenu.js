@@ -58,13 +58,13 @@ function HamburgerMenu({ open, setOpen }) {
 
     const changeBackgroundColor = () => {
         if(window.scrollY >= 40) {
-        menuBackground.style.transition = '0.6s ease-in-out';
-        menuBackground.style.backgroundColor = 'white'
-        } else if (window.scrollY <= 40) {
+            menuBackground.style.transition = '0.6s ease-in-out';
+            menuBackground.style.backgroundColor = 'white'
+    } else if (window.scrollY <= 40) {
             menuBackground.style.transition = '0.6s ease-in-out';
             menuBackground.style.backgroundColor = '#f2f9fd';
+            }
         }
-    }
 
 
     window.addEventListener('scroll', changeBackgroundColor)
