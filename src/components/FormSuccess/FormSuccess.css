@@ -1,0 +1,8 @@
+
+.formsuccess-container {
+    display: flex;
+    justify-content: center;
+    padding: 3rem;
+    color: #7a7c74;
+    font-size: 1.5rem;
+}

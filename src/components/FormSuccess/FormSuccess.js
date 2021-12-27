@@ -1,9 +1,10 @@
-import React from 'react'
+import React from 'react';
+import './FormSuccess.css';
 
 const FormSuccess = () => {
     return (
         <div>
-            <div>
+            <div className='formsuccess-container'>
                 I have received your message!
             </div>
         </div>

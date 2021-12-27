@@ -21,7 +21,6 @@
     border-bottom: 1px solid #fff;
     color: #fff;
     font-size: 14px;
-    text-transform: uppercase;
     outline: none;
 }
 
@@ -93,11 +92,24 @@ textarea::placeholder {
     }
 }
 
+@media screen and (min-width: 1441px) and (max-width: 2800px) {
+    .input-container p {
+        margin-bottom: 1.3rem;
+    }
+}
+
 @media screen and (min-width: 998px) and (max-width: 1440px) {
     .input-section {
         display: flex;
         flex-direction: column;
         gap: 1.5rem;
+    }
+}
+
+@media screen and (min-width: 998px) {
+    .input-container p {
+        position: relative;
+        top: 0.7rem;
     }
 }
 

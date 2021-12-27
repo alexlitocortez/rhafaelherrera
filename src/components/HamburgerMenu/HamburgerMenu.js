@@ -66,8 +66,18 @@ function HamburgerMenu({ open, setOpen }) {
             }
         }
 
+    let isAnimating = false;
+    window.addEventListener('scroll', () => {
+        if (!isAnimating) {
+            window.requestAnimationFrame(() => {
+                changeBackgroundColor();
+                isAnimating = false;
+            });
+            isAnimating = true;
+        }
+    })
 
-    window.addEventListener('scroll', changeBackgroundColor)
+
     
     return (
         <div>
