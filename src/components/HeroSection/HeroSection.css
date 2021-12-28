@@ -47,6 +47,11 @@
     margin-top: 5.5rem;
 }
 
+.herosection-paragraph {
+    color: #7a7c74;
+    font-size: 1.5rem;
+}
+
 .engineer-icons {
     width: 50vw;
     max-height: 80vh;

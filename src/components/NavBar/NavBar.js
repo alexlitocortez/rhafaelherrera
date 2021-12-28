@@ -1,6 +1,8 @@
 import React, { useState } from 'react';
 import './NavBar.css';
 import logo from '/Users/l/rhafaelherrera/src/components/images/logo-icon.png';
+import { Link } from 'react-router-dom';
+
 
 function NavBar() {
 
@@ -28,9 +30,9 @@ function NavBar() {
                     <h1 className='navigation-name'>| Rhafael Herrera</h1>
                 </div>
                 <ul className='NavBar-list'>
-                    <li>About</li>
-                    <li>Portfolio</li>
-                    <li>Contact</li>
+                    <li><a href='#about' className='newLink'>About</a></li>
+                    <li><a href='#portfolio' className='newLink'>Portfolio</a></li>
+                    <li><a href='#contact' className='newLink'>Contact</a></li>
                 </ul>
             </nav>
         </div>

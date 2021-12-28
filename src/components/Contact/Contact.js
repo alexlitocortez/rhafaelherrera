@@ -9,6 +9,7 @@ function Contact({submitForm}) {
 
     return (
         <div>
+            <section id='contact'>
             <div className='contact-container-background'>
                 <div className='contact-container'>
                     <div>
@@ -62,6 +63,7 @@ function Contact({submitForm}) {
                     </div>
                 </div>
             </div>
+            </section>
         </div>
     )
 }
