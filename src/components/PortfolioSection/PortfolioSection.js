@@ -3,7 +3,7 @@ import './PortfolioSection.css';
 import constructionImage from '/Users/l/rhafaelherrera/src/components/images/construction-image.jpg';
 import portfolioOne from '/Users/l/rhafaelherrera/src/components/images/portfolioOne illustration.png';
 import portfolioTwo from '/Users/l/rhafaelherrera/src/components/images/portfolioTwo illustration.png';
-import portfolioThree from '/Users/l/rhafaelherrera/src/components/images/portfolioThree illustration.png';
+import portfolioThree from '/Users/l/rhafaelherrera/src/components/images/portfolioThree illustration .png';
 
 function PortfolioSection() {
     return (
@@ -16,7 +16,13 @@ function PortfolioSection() {
                     <div className='portfolio-text-container'>
                         <h1 className='portfolio-header'>Portfolio</h1>
                         <p className='portfolio-paragraph'>
-                            {/* Insert portfolio paragraph here */}
+                            I'm passionate about the art of
+                            construction and am working with infrastructure that enables
+                            communities to operate from roads, utilities, and overall
+                            accessibility in everyday life. The portfolio projects located below are from my time
+                            in the field. My mission is to make everyday life easier for civilians and I work on projects that
+                            emphasize this. If you're interested in working together
+                            , please contact me via the form below.
                         </p>
                     </div>
                 </div>

@@ -11,10 +11,7 @@ function HeroSection() {
                         <img src={civilEngineer} className='engineer-image' alt='civil-engineer-character-illustration' />
                     </div>
                     <p className='herosection-paragraph'>
-                    I'm passionate about the art of
-                    construction and am working with infrastructure that enables
-                    communities to operate from roads, utilities, and overall
-                    accessibility in everyday life. Here's my work.
+                    
                     </p>
                 </div>
             </section>

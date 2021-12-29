@@ -171,6 +171,15 @@
     .card p {
         padding-top: 1.5rem;
     }
+
+    .construction-image {
+        margin-bottom: 5rem;
+        width: 60vw;
+    }
+
+    .portfolio-paragraph {
+        padding: 1rem;
+    }
 }
 
 @media screen and (min-width: 655px) and (max-width: 768px) {
@@ -207,6 +216,13 @@
     }
 }
 
+@media screen and (max-width: 425px) {
+    .herosection-paragraph {
+        text-align: left;
+        padding: 1rem;
+    }
+}
+
 @media screen and (min-width: 320px) and (max-width: 425px) {
     .card {
         height: 27rem;
@@ -214,5 +230,15 @@
 
     .card p {
         padding-top: 1.5rem;
+    }
+}
+
+@media screen and (max-width: 320px) {
+    .card {
+        height: 27rem;
+    }
+
+    .card p {
+        padding-top: 1rem;
     }
 }

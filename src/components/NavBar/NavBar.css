@@ -62,6 +62,10 @@
     font-size: 1.3rem;
 }
 
+.NavBar li a {
+    cursor: pointer;
+}
+
 .newLink {
     color: #365590;
     text-decoration: none;
