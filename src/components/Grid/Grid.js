@@ -10,6 +10,7 @@ import portfolioThree from '/Users/l/rhafaelherrera/src/components/images/portfo
 function Grid() {
     return (
         <div>
+            <section id='portfolio'>
             <div className='grid-container'>
                 <div className='grid-item-1'>
                     <img src={constructionImage} className='construction-image'/>
@@ -52,6 +53,7 @@ function Grid() {
                     </div>
                 </div>  
             </div>
+            </section>
         </div>
     )
 }

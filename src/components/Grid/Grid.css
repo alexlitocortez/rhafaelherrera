@@ -3,7 +3,7 @@
     display: grid;
     grid-template-columns: 0.7fr 0.7fr 0.7fr;
     grid-template-rows: 0.8fr 0.8fr;
-    margin-bottom: 4rem;
+    margin-bottom: 2rem;
 }
 
 .cardGrid {
@@ -13,6 +13,10 @@
 
 .portfolio-paragraph-grid {
     font-size: 1.5rem;
+}
+
+.grid-item-2 h1 {
+    font-size: 2.5rem;
 }
 
 .cardGrid h1 {
@@ -38,6 +42,7 @@
     padding: 1.5rem;
     margin-left: auto;
     margin-right: auto;
+    border-radius: 10px;
 }
 
 
