@@ -10,12 +10,13 @@ function Contact({submitForm}) {
     return (
         <div>
             <section id='contact'>
+                
+            <h1 className='contact-header'>Contact Me</h1>
+
             <div className='contact-container-background'>
                 <div className='contact-container'>
                     <div>
-                        <h1 className='contact-header'>
-                            Contact Me
-                        </h1>
+                        
                     </div>
                     <div className='input-section' id='input-section' onSubmit={handleSubmit}>
                             <div className='input-container'>
@@ -54,8 +55,6 @@ function Contact({submitForm}) {
                     </div>
                 </div>
                 <div className='button-container-half'>
-                    <div>
-                    </div>
                     <div className='button-container'>
                         <button className='contact-button' type='submit' onClick={handleSubmit}>
                             Send  →

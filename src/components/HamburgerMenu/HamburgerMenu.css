@@ -43,6 +43,7 @@
         border-radius: 00.5rem;
         background-color: #f2f9fd;
         top: 4rem;
+        left: 1rem;
         transition: ease-in-out;
     }
 }

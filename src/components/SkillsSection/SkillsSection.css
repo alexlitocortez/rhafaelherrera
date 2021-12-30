@@ -1,7 +1,6 @@
 
 .skill-section {
     width: 90vw;
-    background-color: #ffd580;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4rem;
@@ -9,22 +8,30 @@
 }
 
 .skill-image-container {
-    height: fit-content;
-    padding-bottom: 1rem;
+    padding-bottom: 3rem;
 }
 
 .skill-image {
     height: fit-content;
-    width: 10rem;
+    width: 20rem;
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
 }
 
+.skill-image h2 {
+    font-size: 2rem;
+}
+
 .skill-image p {
     color: #2975ca;
-    text-align: left;
+    text-align: center;
     font-size: 1.5rem;
+    margin-top: 1rem;
+}
+
+.skill-paragraph {
+    padding-left: 1rem;
 }
 
 @media screen and (min-width: 1400px) {
@@ -45,6 +52,6 @@
 
 @media screen and (min-width: 426px) {
     .skill-section {
-        width: 50vw;
+        width: 80vw;
     }
 }

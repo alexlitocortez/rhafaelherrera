@@ -1,40 +1,38 @@
 import React from 'react';
-import './PortfolioSection.css';
+import './Grid.css';
+
 import constructionImage from '/Users/l/rhafaelherrera/src/components/images/construction-image.jpg';
 import portfolioOne from '/Users/l/rhafaelherrera/src/components/images/portfolioOne illustration.png';
 import portfolioTwo from '/Users/l/rhafaelherrera/src/components/images/portfolioTwo illustration.png';
 import portfolioThree from '/Users/l/rhafaelherrera/src/components/images/portfolioThree illustration.png';
 
-function PortfolioSection() {
+
+function Grid() {
     return (
         <div>
-            <section className='portfolio-section' id='portfolio'>
-                <div className='portfolio-header-container'>
-                    <div className='construction-image-container'>
-                        <img src={constructionImage} className='construction-image' />
-                    </div>
-                    <div className='portfolio-text-container'>
-                        <h1 className='portfolio-header'>Portfolio</h1>
-                        <p className='portfolio-paragraph'>
-                            I'm passionate about the art of
-                            construction and am working with infrastructure that enables
-                            communities to operate from roads, utilities, and overall
-                            accessibility in everyday life. The portfolio projects located below are from my time
-                            in the field. My mission is to make everyday life easier for civilians and I work on projects that
-                            emphasize this. If you're interested in working together
-                            , please contact me via the form below.
-                        </p>
-                    </div>
+            <div className='grid-container'>
+                <div className='grid-item-1'>
+                    <img src={constructionImage} className='construction-image'/>
                 </div>
-                <div className='portfolio-cards'>
-                    <div className='card'>
+                <div className='grid-item-2'>
+                    <h1>Portfolio</h1>
+                    <p className='portfolio-paragraph-grid'> 
+                        The portfolio projects located below are from my time
+                        in the field. My mission is to make everyday life easier 
+                        for civilians and I work on projects that emphasize this. 
+                    </p>
+                </div>
+                <div className='grid-item-3 cardBox'>
+                    <div className='cardGrid'>
                         <img className='portfolio-image' src={portfolioOne} />
                         <h1>Groove And Grind</h1>
                         <p>
                             Groove and grind pavement. This pavement provides friction for vehicles to keep control during slippery conditions
                         </p>
                     </div>
-                    <div className='card'>
+                </div> 
+                <div className='grid-item-4 cardBox'>
+                    <div className='cardGrid'>
                         <img className='portfolio-image' src={portfolioTwo} />
                         <h1>Landslide Stabilization</h1>
                         <p>
@@ -42,7 +40,9 @@ function PortfolioSection() {
                             braces and rip rap (rocks) were placed to prevent soil and concrete wall movement
                         </p>
                     </div>
-                    <div className='card'>
+                </div>
+                <div className='grid-item-5 cardBox'>
+                    <div className='cardGrid'>
                         <img className='portfolio-image' src={portfolioThree} />
                         <h1>New Sidewalk</h1>
                         <p>
@@ -50,10 +50,10 @@ function PortfolioSection() {
                             We're replacing a damaged sidewalk here
                         </p>
                     </div>
-                </div>
-            </section>
+                </div>  
+            </div>
         </div>
     )
 }
 
-export default PortfolioSection
+export default Grid
