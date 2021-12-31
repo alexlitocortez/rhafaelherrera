@@ -84,9 +84,9 @@ function HamburgerMenu({ open, setOpen }) {
             <DropdownContainer id='container' open={open}>
                 <CloseIcon open={open} onClick={() => setOpen(!open)} />
                 <ul className='nav-list'>
-                    <li onClick={() => setOpen(!open)}>About</li>
-                    <li onClick={() => setOpen(!open)}>Portfolio</li>
-                    <li onClick={() => setOpen(!open)}>Contact</li>
+                    <a href='#about'><li onClick={() => setOpen(!open)}>About</li></a>
+                    <a href='#portfolio'><li onClick={() => setOpen(!open)}>Portfolio</li></a>
+                    <a href='#contact'><li onClick={() => setOpen(!open)}>Contact</li></a>
                 </ul>
             </DropdownContainer>
         </div>

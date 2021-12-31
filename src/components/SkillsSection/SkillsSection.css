@@ -1,6 +1,6 @@
 
 .skill-section {
-    width: 90vw;
+    width: 100vw;
     margin-left: auto;
     margin-right: auto;
     margin-bottom: 4rem;
@@ -9,11 +9,14 @@
 
 .skill-image-container {
     padding-bottom: 3rem;
+    margin-bottom: 2rem;
+    width: 100%;
 }
 
 .skill-image {
     height: fit-content;
-    width: 20rem;
+    width: 100%;
+    max-width: 20rem;
     margin-top: 1rem;
     margin-left: auto;
     margin-right: auto;
@@ -47,11 +50,5 @@
 
     .skill-image {
         margin-top: 0rem;
-    }
-}
-
-@media screen and (min-width: 426px) {
-    .skill-section {
-        width: 80vw;
     }
 }

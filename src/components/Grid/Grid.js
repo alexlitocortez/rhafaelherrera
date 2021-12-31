@@ -1,10 +1,10 @@
 import React from 'react';
 import './Grid.css';
 
-import constructionImage from '/Users/l/rhafaelherrera/src/components/images/construction-image.jpg';
-import portfolioOne from '/Users/l/rhafaelherrera/src/components/images/portfolioOne illustration.png';
-import portfolioTwo from '/Users/l/rhafaelherrera/src/components/images/portfolioTwo illustration.png';
-import portfolioThree from '/Users/l/rhafaelherrera/src/components/images/portfolioThree illustration.png';
+import constructionImage from '/Users/l/rhafaelherrera/src/images/construction-image.jpg';
+import portfolioOne from '/Users/l/rhafaelherrera/src/images/portfolioOne illustration.png';
+import portfolioTwo from '/Users/l/rhafaelherrera/src/images/portfolioTwo illustration.png';
+import portfolioThree from '/Users/l/rhafaelherrera/src/images/portfolioThree illustration.png';
 
 
 function Grid() {
@@ -20,7 +20,7 @@ function Grid() {
                     <p className='portfolio-paragraph-grid'> 
                         The portfolio projects located below are from my time
                         in the field. My mission is to make everyday life easier 
-                        for civilians and I work on projects that emphasize this. 
+                        for civilians and these projects emphasize this. 
                     </p>
                 </div>
                 <div className='grid-item-3 cardBox'>

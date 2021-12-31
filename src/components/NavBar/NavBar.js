@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 import './NavBar.css';
-import logo from '/Users/l/rhafaelherrera/src/components/images/logo-icon.png';
-import { Link } from 'react-router-dom';
+import logo from '/Users/l/rhafaelherrera/src/images/logo-icon.png';
 
 
 function NavBar() {
@@ -39,7 +38,7 @@ function NavBar() {
     )
 }
 
-
+ 
 
 export default NavBar
 

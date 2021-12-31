@@ -22,7 +22,7 @@
     border: none;
     border-bottom: 1px solid #fff;
     color: #fff;
-    font-size: 14px;
+    font-size: 1.5rem;
     outline: none;
 }
 
@@ -53,7 +53,7 @@ textarea::placeholder {
     outline: none;
     color: #fff;
     background-color: #336b87;
-    font-size: 1rem;
+    font-size: 1.5rem;
     cursor: pointer;
 }
 
@@ -62,7 +62,6 @@ textarea::placeholder {
 }
 
 @media  screen and (min-width: 998px) and (max-width: 2800px) {
-
     .contact-header {
         padding: 2rem;
     }
@@ -125,12 +124,6 @@ textarea::placeholder {
 
 
 @media screen and (max-width: 997px) {
-    .contact-divider {
-        width: 90vw;
-        margin-top: 1rem;
-        margin-bottom: 1rem;
-    }
-
     .button-container-half {
         display: flex;
         flex-direction: column;

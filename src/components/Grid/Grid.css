@@ -6,6 +6,10 @@
     margin-bottom: 2rem;
 }
 
+.construction-image {
+    width: 90%;
+}
+
 .cardGrid {
     height: fit-content;
     padding-bottom: 0.5rem;
@@ -13,6 +17,7 @@
 
 .portfolio-paragraph-grid {
     font-size: 1.5rem;
+    padding: 1rem;
 }
 
 .grid-item-2 h1 {
@@ -64,6 +69,16 @@
     grid-row: 2
 }
 
+@media screen and (max-width: 2800px) {
+    .cardBox {
+        margin-top: 2rem;
+    }
+
+    .portfolio-paragraph-grid {
+        font-size: 2rem;
+    }
+}
+
 @media screen and (max-width: 1112px) {
     .grid-container {
         display: flex;
@@ -84,7 +99,7 @@
 
 @media screen and (max-width: 642px) {
     .cardBox {
-        width: 50vw;
+        width: 80vw;
     }
 }
 
@@ -98,8 +113,11 @@
     }
 }
 
-@media screen and (max-width: 375px) {
-    .cardBox {
-        width: 70vw;
+
+@media screen and (max-width: 425px) {
+    .portfolio-paragraph-grid {
+        font-size: 1.5rem;
+        padding: 1rem;
     }
 }
+
