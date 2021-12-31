@@ -1,25 +1,34 @@
-import logo from './logo.svg';
+import React, { useState } from 'react';
 import './App.css';
+import NavBar from './components/NavBar/NavBar';
+import Hamburger from './components/Hamburger/Hamburger';
+import HamburgerMenu from './components/HamburgerMenu/HamburgerMenu';
+import HeroSection from './components/HeroSection/HeroSection';
+import PortfolioSection from './components/PortfolioSection/PortfolioSection';
+import ContactForm from './components/ContactForm/ContactForm';
+import Footer from './components/Footer/Footer';
+import SkillsSection from './components/SkillsSection/SkillsSection';
+import Grid from './components/Grid/Grid';
+
 
 function App() {
+  const [open, setOpen] = useState(false);
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+    <div className='App'>
+      <NavBar />
+      <div>
+        <Hamburger open={open} setOpen={setOpen} />
+        <HamburgerMenu open={open} setOpen={setOpen} />
+      </div>
+      <HeroSection />
+      <SkillsSection />
+      <Grid />
+      <ContactForm />
+      <Footer />
     </div>
   );
 }
 
 export default App;
+
+
