@@ -1,9 +1,9 @@
 import React from 'react';
 import './PortfolioSection.css';
 import constructionImage from '/Users/l/rhafaelherrera/src/images/construction-image.jpg';
-import portfolioOne from '/Users/l/rhafaelherrera/src/images/portfolioOne illustration.png';
-import portfolioTwo from '/Users/l/rhafaelherrera/src/images/portfolioTwo illustration.png';
-import portfolioThree from '/Users/l/rhafaelherrera/src/images/portfolioThree illustration.png';
+import portfolioOne from '/Users/l/rhafaelherrera/src/components/images/portfolioOne illustration.png';
+import portfolioTwo from '/Users/l/rhafaelherrera/src/components/images/portfolioTwo illustration.png';
+import portfolioThree from '/Users/l/rhafaelherrera/src/components/images/portfolioThree illustration.png';
 
 function PortfolioSection() {
     return (
@@ -27,14 +27,14 @@ function PortfolioSection() {
             </div>
             <div className='portfolio-cards'>
                 <div className='card'>
-                    <img className='portfolio-image' src={portfolioOne} />
+                    <img className='portfolio-image' />
                     <h1>Groove And Grind</h1>
                     <p>
                         Groove and grind pavement. This pavement provides friction for vehicles to keep control during slippery conditions
                     </p>
                 </div>
                 <div className='card'>
-                    <img className='portfolio-image' src={portfolioTwo} />
+                    <img className='portfolio-image' />
                     <h1>Landslide Stabilization</h1>
                     <p>
                         Landslide stabilization of a failed concrete wall along a storm canal; 
@@ -42,7 +42,7 @@ function PortfolioSection() {
                     </p>
                 </div>
                 <div className='card'>
-                    <img className='portfolio-image' src={portfolioThree} />
+                    <img className='portfolio-image' />
                     <h1>New Sidewalk</h1>
                     <p>
                         Grading of subgrade soil to prepare for a new concrete sidewalk.

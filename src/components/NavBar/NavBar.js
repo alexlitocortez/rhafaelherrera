@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import './NavBar.css';
-import logo from '/Users/l/rhafaelherrera/src/images/logo-icon.png';
+import logo from '../images/logo-icon.png';
+import { icons } from 'react-icons/lib';
 
 
 function NavBar() {
@@ -20,12 +21,11 @@ function NavBar() {
 
     window.addEventListener('scroll', changeBackground);
 
-
     return (
         <div>
             <nav className={`NavBar ${navbar ? 'navbar active' : 'navbar'} ${shadow ? 'shadow activeShadow' : 'shadow'}`}>
                 <div className='icon-container'>
-                    <img src={logo} className='logo-icon'/>
+                    <img src={logo} className='logo-icon' alt='gear'/>
                     <h1 className='navigation-name'>| Rhafael Herrera</h1>
                 </div>
                 <ul className='NavBar-list'>

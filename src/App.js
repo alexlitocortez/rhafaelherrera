@@ -4,12 +4,10 @@ import NavBar from './components/NavBar/NavBar';
 import Hamburger from './components/Hamburger/Hamburger';
 import HamburgerMenu from './components/HamburgerMenu/HamburgerMenu';
 import HeroSection from './components/HeroSection/HeroSection';
-import PortfolioSection from './components/PortfolioSection/PortfolioSection';
 import ContactForm from './components/ContactForm/ContactForm';
 import Footer from './components/Footer/Footer';
 import SkillsSection from './components/SkillsSection/SkillsSection';
 import Grid from './components/Grid/Grid';
-
 
 function App() {
   const [open, setOpen] = useState(false);

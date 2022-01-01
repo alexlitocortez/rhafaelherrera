@@ -1,8 +1,8 @@
 import React from 'react';
 import './SkillsSection.css';
-import skillimageOne from '/Users/l/rhafaelherrera/src/images/skillImage One.png';
-import skillimageTwo from '/Users/l/rhafaelherrera/src/images/skillImage Two .png';
-import skillimageThree from '/Users/l/rhafaelherrera/src/images/skillsImage Three.png';
+import skillimageOne from '/Users/l/rhafaelherrera/src/components/images/skillImage One.png';
+import skillimageTwo from '/Users/l/rhafaelherrera/src/components/images/skillImage Two .png';
+import skillimageThree from '/Users/l/rhafaelherrera/src/components/images/skillsImage Three.png';
 
 function SkillsSection() {
     return (
