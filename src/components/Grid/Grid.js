@@ -6,14 +6,13 @@ import portfolioOne from '/Users/l/rhafaelherrera/src/images/portfolioOne illust
 import portfolioTwo from '/Users/l/rhafaelherrera/src/images/portfolioTwo illustration.png';
 import portfolioThree from '/Users/l/rhafaelherrera/src/images/portfolioThree illustration.png';
 
-
 function Grid() {
     return (
         <div>
             <section id='portfolio'>
             <div className='grid-container'>
                 <div className='grid-item-1'>
-                    <img src={constructionImage} className='construction-image'/>
+                    <img src={constructionImage} className='construction-image' alt='landscape of a construction site' />
                 </div>
                 <div className='grid-item-2'>
                     <h1>Portfolio</h1>
@@ -25,7 +24,7 @@ function Grid() {
                 </div>
                 <div className='grid-item-3 cardBox'>
                     <div className='cardGrid'>
-                        <img className='portfolio-image' src={portfolioOne} />
+                        <img className='portfolio-image' src={portfolioOne} alt='consturciton vehicle fixing the road' />
                         <h1>Groove And Grind</h1>
                         <p>
                             Groove and grind pavement. This pavement provides friction for vehicles to keep control during slippery conditions
@@ -34,7 +33,7 @@ function Grid() {
                 </div> 
                 <div className='grid-item-4 cardBox'>
                     <div className='cardGrid'>
-                        <img className='portfolio-image' src={portfolioTwo} />
+                        <img className='portfolio-image' src={portfolioTwo} alt='warning equipment and rocks' />
                         <h1>Landslide Stabilization</h1>
                         <p>
                             Landslide stabilization of a failed concrete wall along a storm canal; 
@@ -44,7 +43,7 @@ function Grid() {
                 </div>
                 <div className='grid-item-5 cardBox'>
                     <div className='cardGrid'>
-                        <img className='portfolio-image' src={portfolioThree} />
+                        <img className='portfolio-image' src={portfolioThree} alt='excavator digging a hole' />
                         <h1>New Sidewalk</h1>
                         <p>
                             Grading of subgrade soil to prepare for a new concrete sidewalk.
