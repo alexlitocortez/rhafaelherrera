@@ -1,7 +1,7 @@
 import React from 'react';
-import useForm from '/Users/l/rhafaelherrera/src/components/useForm/useForm.js';
+import useForm from '../useForm/useForm.js';
 import './Contact.css';
-import validateInfo from '/Users/l/rhafaelherrera/src/components/validateInfo/validateInfo.js';
+import validateInfo from '../validateInfo/validateInfo.js';
 
 function Contact({submitForm}) {
 

@@ -1,10 +1,10 @@
 import React from 'react';
 import './Grid.css';
 
-import constructionImage from '/Users/l/rhafaelherrera/src/components/images/construction-image.jpg';
-import portfolioOne from '/Users/l/rhafaelherrera/src/components/images/portfolioOne illustration.png';
-import portfolioTwo from '/Users/l/rhafaelherrera/src/components/images/portfolioTwo illustration.png';
-import portfolioThree from '/Users/l/rhafaelherrera/src/components/images/portfolioThree illustration.png';
+import constructionImage from '../images/construction-image.jpg';
+import portfolioOne from '../images/portfolioOne illustration.png';
+import portfolioTwo from '../images/portfolioTwo illustration.png';
+import portfolioThree from '../images/portfolioThree illustration.png';
 
 function Grid() {
     return (
