@@ -1,5 +1,5 @@
-import React, { useState, useEffect } from 'react';
-import useForm from '../../useForm/useForm';
+import React from 'react';
+import useForm from '/Users/l/rhafaelherrera/src/components/useForm/useForm.js';
 import './Contact.css';
 import validateInfo from '/Users/l/rhafaelherrera/src/components/validateInfo/validateInfo.js';
 

@@ -1,8 +1,6 @@
 import React, { useState } from 'react';
 import './NavBar.css';
 import logo from '../images/logo-icon.png';
-import { icons } from 'react-icons/lib';
-
 
 function NavBar() {
 

@@ -27,7 +27,7 @@ function Grid() {
                         <img className='portfolio-image' src={portfolioOne} alt='consturciton vehicle fixing the road' />
                         <h1>Groove And Grind</h1>
                         <p>
-                            Groove and grind pavement. This pavement provides friction for vehicles to keep control during slippery conditions
+                            Groove and grind pavement. This pavement provides friction for vehicles to keep control during slippery conditions.
                         </p>
                     </div>
                 </div> 
@@ -37,7 +37,7 @@ function Grid() {
                         <h1>Landslide Stabilization</h1>
                         <p>
                             Landslide stabilization of a failed concrete wall along a storm canal; 
-                            braces and rip rap (rocks) were placed to prevent soil and concrete wall movement
+                            braces and rip rap (rocks) were placed to prevent soil and concrete wall movement.
                         </p>
                     </div>
                 </div>
@@ -47,7 +47,7 @@ function Grid() {
                         <h1>New Sidewalk</h1>
                         <p>
                             Grading of subgrade soil to prepare for a new concrete sidewalk.
-                            We're replacing a damaged sidewalk here
+                            We're replacing a damaged sidewalk here.
                         </p>
                     </div>
                 </div>  

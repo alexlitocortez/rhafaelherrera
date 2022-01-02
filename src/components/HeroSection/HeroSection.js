@@ -1,6 +1,6 @@
 import React from 'react';
 import './HeroSection.css';
-import civilEngineer from '/Users/l/rhafaelherrera/src/components/images/civil-engineer-transparent.png';
+import civilEngineer from '../images/civil-engineer-transparent.png';
 
 function HeroSection() {
     return (
