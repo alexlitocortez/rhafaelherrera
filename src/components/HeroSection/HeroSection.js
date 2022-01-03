@@ -10,9 +10,6 @@ function HeroSection() {
                     <div className='civil-engineer-container'>
                         <img src={civilEngineer} className='engineer-image' alt='civil-engineer-character-illustration' />
                     </div>
-                    <p className='herosection-paragraph'>
-                    
-                    </p>
                 </div>
             </section>
         </div>
