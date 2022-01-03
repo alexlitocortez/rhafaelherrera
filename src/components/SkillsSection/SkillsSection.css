@@ -27,7 +27,6 @@
 }
 
 .skill-image p {
-    color: #2975ca;
     text-align: center;
     font-size: 1.5rem;
     margin-top: 1rem;
@@ -37,7 +36,7 @@
     padding-left: 1rem;
 }
 
-@media screen and (min-width: 1400px) {
+@media screen and (min-width: 1024px) {
     .skill-section {
         padding-bottom: 1rem;
     }
@@ -45,11 +44,29 @@
     .skill-image-container {
         display: flex;
         flex-direction: row;
-        height: 30rem;
+        justify-content: space-around;
     }
 
-    .skill-image {
-        margin-top: 0rem;
+    .skill-image-box h2 {
+        font-size: 2rem;
+    }
+
+    .skill-paragraph {
+        color: #2975ca;
+        font-size: 1.5rem;
+        margin-top: 1rem;
+    }
+}
+
+@media screen and (max-width: 1023px) {
+    .skill-image-box h2 {
+        font-size: 2rem;
+    }
+
+    .skill-paragraph {
+        color: #2975ca;
+        font-size: 1.5rem;
+        margin-top: 1rem;
     }
 }
 
@@ -59,16 +76,3 @@
         width: 13rem;
     }
 }
-
-
-/* 
-@media screen and (max-width: 768px) {
-    .skill-image-container {
-        margin-bottom: 0;
-    }
-
-    .skill-image {
-        height: 15rem;
-        width: 13rem;
-    }
-} */

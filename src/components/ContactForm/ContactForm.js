@@ -1,4 +1,5 @@
-import React, { useState } from 'react';
+import React from 'react';
+import { useState } from 'react/cjs/react.development';
 import Contact from '../Contact/Contact';
 import FormSuccess from '../FormSuccess/FormSuccess';
 

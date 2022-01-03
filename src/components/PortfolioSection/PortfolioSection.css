@@ -69,3 +69,8 @@
     max-height: fit-content;
 }
 
+@media screen and (max-width: 375px) {
+    .grid-item-2 p {
+        text-align: left;
+    }
+}
