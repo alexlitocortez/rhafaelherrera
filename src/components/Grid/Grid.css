@@ -129,9 +129,3 @@
     }
 }
 
-@media screen and (max-width: 375px) {
-    .portfolio-paragraph-grid {
-        text-align: left;
-    }
-}
-
