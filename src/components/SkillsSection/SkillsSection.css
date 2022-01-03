@@ -8,7 +8,6 @@
 }
 
 .skill-image-container {
-    padding-bottom: 3rem;
     margin-bottom: 2rem;
     width: 100%;
 }
@@ -32,10 +31,6 @@
     margin-top: 1rem;
 }
 
-.skill-paragraph {
-    padding-left: 1rem;
-}
-
 @media screen and (min-width: 1024px) {
     .skill-section {
         padding-bottom: 1rem;
@@ -45,6 +40,10 @@
         display: flex;
         flex-direction: row;
         justify-content: space-around;
+    }
+
+    .skill-image-container {
+        padding: 1rem;
     }
 
     .skill-image-box h2 {

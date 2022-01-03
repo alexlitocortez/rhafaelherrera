@@ -91,7 +91,7 @@
     }
 
     .construction-image {
-        width: 60vw;
+        width: 80vw;
         margin-bottom: 5rem;
     }
 
@@ -119,9 +119,19 @@
 }
 
 @media screen and (max-width: 425px) {
+    .grid-item-2 p {
+        margin-top: 0;
+    }
+
     .portfolio-paragraph-grid {
         font-size: 1.5rem;
         padding: 1rem;
+    }
+}
+
+@media screen and (max-width: 375px) {
+    .portfolio-paragraph-grid {
+        text-align: left;
     }
 }
 
