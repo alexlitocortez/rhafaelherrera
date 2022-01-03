@@ -52,3 +52,23 @@
         margin-top: 0rem;
     }
 }
+
+@media screen and (max-width: 768px) {
+    .skill-image {
+        height: 15rem;
+        width: 13rem;
+    }
+}
+
+
+/* 
+@media screen and (max-width: 768px) {
+    .skill-image-container {
+        margin-bottom: 0;
+    }
+
+    .skill-image {
+        height: 15rem;
+        width: 13rem;
+    }
+} */
