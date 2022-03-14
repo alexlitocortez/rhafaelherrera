@@ -10,14 +10,9 @@ function Contact({submitForm}) {
     return (
         <div>
             <section id='contact'>
-                
             <h1 className='contact-header'>Contact Me</h1>
-
             <div className='contact-container-background'>
                 <div className='contact-container'>
-                    <div>
-                        
-                    </div>
                     <div className='input-section' id='input-section' onSubmit={handleSubmit}>
                             <div className='input-container'>
                                 <input 
@@ -25,7 +20,8 @@ function Contact({submitForm}) {
                                     type='text' name='name' 
                                     id='name' placeholder='Name' 
                                     value={values.name} 
-                                    onChange={handleChange} />
+                                    onChange={handleChange} 
+                                />
                                 {errors.name && <p>{errors.name}</p>}
                             </div>
                             <div className='input-container'>
@@ -37,7 +33,7 @@ function Contact({submitForm}) {
                                     placeholder='Email' 
                                     value={values.email}
                                     onChange={handleChange}
-                                    />
+                                />
                                 {errors.email && <p>{errors.email}</p>}
                             </div>
                             <div className='input-container'>
@@ -49,7 +45,7 @@ function Contact({submitForm}) {
                                     placeholder='Message'
                                     value={values.message}
                                     onChange={handleChange} 
-                                    />
+                                />
                                 {errors.message && <p>{errors.message}</p>}
                             </div>
                     </div>

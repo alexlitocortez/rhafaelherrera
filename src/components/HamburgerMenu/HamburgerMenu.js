@@ -3,8 +3,6 @@ import './HamburgerMenu.css';
 import styled from 'styled-components';
 import { FaTimes } from 'react-icons/fa';
 
-
-
 const DropdownContainer = styled.nav`
     display: none;
 
@@ -50,11 +48,9 @@ const CloseIcon = styled(FaTimes)`
     }
 `;
 
-    
 function HamburgerMenu({ open, setOpen }) {
 
     const menuBackground = document.getElementById('container');
-
 
     const changeBackgroundColor = () => {
         if(window.scrollY >= 40) {
@@ -77,8 +73,6 @@ function HamburgerMenu({ open, setOpen }) {
         }
     })
 
-
-    
     return (
         <div>
             <DropdownContainer id='container' open={open}>

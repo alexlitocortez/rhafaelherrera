@@ -1,6 +1,5 @@
 import React from 'react';
 import './Grid.css';
-
 import constructionImage from '../images/construction-image.jpg';
 import portfolioOne from '../images/portfolioOne illustration.png';
 import portfolioTwo from '../images/portfolioTwo illustration.png';
